@@ -1,0 +1,2 @@
+# JavaScript
+Some JS Training
