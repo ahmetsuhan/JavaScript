@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+}
+#messageBox{
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+#header{
+    cursor:pointer ;
+    height: 25px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+#content{
+    height: 200px;
+    padding: 10px;
+    display:none;
+}
+#close{
+    float:right;
+    transition: all 0.3s ease 2ms;
+}
+#close:hover{
+    color:violet;
+}
+#btn{
+    display:none;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(19, 111, 197);
+    color:burlywood;
+    transition: all 0.3s ease 2ms;
+}
+#btn:hover{
+    background-color:rgba(19, 111, 197,.5);
+    color:rgb(236, 149, 149);
+}
