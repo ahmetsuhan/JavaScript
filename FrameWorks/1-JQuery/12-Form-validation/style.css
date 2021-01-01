@@ -1,0 +1,35 @@
+body{
+    font-size: 180%;;
+}
+input{
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    border:1px solid gray;
+    width:350px;
+}
+label{
+display: inline-block;
+width:270px;
+}
+.wrapper{
+    width:700px;
+    margin:0 auto;
+}
+#error{
+    color:red;
+    text-align: left;
+}
+.form-group{
+    margin-bottom:15px;
+}
+button{
+    background-color: #4CAF50;
+    color:#fff;
+    padding: 14px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+    margin-top:20px;
+    width:100%;
+}
